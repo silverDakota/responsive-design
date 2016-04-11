@@ -1,0 +1,138 @@
+html body{
+	height: 100%
+}
+body{
+	background-color: #333399;
+}
+.navlist {
+	font-size: 20px;
+	padding : 0;
+	margin : 15px 0 15px -25px;
+	text-align : left;
+	background-color: inherit;
+}
+.navlist ul {
+	margin : 0;
+	display: inline-block;
+	list-style-type: none;
+}
+a{text-decoration:none;}
+a:link {
+	color: black;  
+}
+a:hover {
+	color:red; 
+	text-decoration:underline;
+}
+img{
+	margin:0;
+	padding: 5px 15px 5px 15px;
+	width:250px;
+	height:400px;
+}
+.container{
+	font-family: "Times New Roman", Times, serif;
+	background-color: #4040bf;
+}
+.sidebar {
+	float : left;
+	width : 160px;
+	margin :50px 0 0 0;
+	padding : 0;
+	line-height: 300%;
+}
+.subtitle{
+	font-size: 60px;
+	
+}
+.blerb{
+	font-size: 40px;
+	
+}
+.posting{
+	padding: 10px;
+	margin: 15px 0 15px 5px;
+    background-color: #3399ff;
+    box-shadow: 5px 5px 5px #00b8e6;
+	border-radius: 2em;
+	
+}
+.review{
+	display:none;
+	float : right;
+	width : 200px;
+	margin :50px 10px 0 10px;
+	padding : 5px;
+	box-shadow: 5px 5px 5px #00b8e6;
+	border-radius: 2em;
+	background-color: #008ae6;
+}
+.clearfix {
+    overflow: auto;
+	box-shadow: 10px 10px 5px #4db8ff;
+	border-radius: 2em;
+	background-color: #008ae6;
+}
+
+/* standard screen styles */
+@media screen and (min-width: 1024px){
+	body{
+		width:1000px;
+	}
+	.sidebar {
+		float: none;
+		margin : 10px;
+		padding : 0;
+		width : 100%;
+		line-height: normal;
+	}
+	.navlist {
+	font-size: 30px;
+	margin : 15px;
+	text-align : center;
+	background-color:green;
+	
+}
+	.navlist ul li{
+	margin : 0;
+	padding-left:10px;
+	display:inline-block;
+}
+	
+}
+
+/* large screen styles */
+@media screen and (min-width: 1366px){
+	body{
+		width:1300px;
+	}
+	.sidebar {
+	float: none;
+	margin : 10px;
+	padding : 0;
+	width : 100%;
+	line-height: normal;
+	}
+	.navlist {
+	font-size: 40px;
+	margin : 25px;
+	text-align : center;
+	background-color:green;
+	
+}
+	.navlist ul li{
+	padding-left:10px;
+	display:inline-block;
+}
+	.review{
+		display: inline;
+	}
+	
+}
+/* 1920 and up screen styles */
+@media screen and (min-width: 1920px){
+	body{
+		width:100%;
+	}
+}
+
